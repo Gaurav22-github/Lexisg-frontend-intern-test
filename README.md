@@ -32,6 +32,27 @@ Make sure you have:
 - Node.js (v14+ recommended)
 - npm or yarn
 
+
+## 🔗 How Citation Linking Was Handled
+
+In this project, citation linking is handled in a **simple and direct way, without using a modal popup**.
+
+### ✅ Citation Behavior:
+
+- Each answer includes a **citation text** displayed below it.
+- The citation is rendered as a **clickable `<a>` tag**.
+- When the user clicks on the citation:
+  - It opens the **PDF document in a new browser tab**, using the provided URL.
+  - No additional logic such as scroll-to-paragraph or text highlighting is applied.
+  - This simulates how users would view legal source documents in a real legal assistant tool.
+
+### 🔍 Why This Approach?
+
+- Keeps the implementation clean and focused on core functionality.
+- Meets the requirement of **traceability to source documents**.
+- Avoids unnecessary complexity (no PDF viewer integration or modal simulation).
+
+
 ---
 
 ### 📥 Installation
@@ -46,3 +67,8 @@ npm install
 
 # Run the Project
 npm run dev
+
+
+---
+
+
