@@ -59,7 +59,7 @@ In this project, citation linking is handled in a **simple and direct way, witho
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/lexisg-frontend-intern-test.git
+git clone https://github.com/your-username/lexisg-frontend-intern-test.git](https://github.com/Gaurav22-github/Lexisg-frontend-intern-test.git
 cd lexisg-frontend-intern-test
 
 # Install dependencies
