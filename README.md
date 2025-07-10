@@ -1,3 +1,5 @@
+
+
 # 🧠 Lexi Legal Assistant - Frontend Assignment
 
 A minimal frontend simulation of a Lexi-like legal assistant that allows users to:
@@ -8,6 +10,7 @@ A minimal frontend simulation of a Lexi-like legal assistant that allows users t
 - Click the citation to open a simulated PDF viewer with paragraph highlighting
 
 Built using **React + Vite** with a chat-like UI and Tailwind CSS.
+##Live Demo - https://lexisg-frontend-intern-test-tawny.vercel.app/
 
 ---
 
