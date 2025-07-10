@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+
+
+*{
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #212121;
+}
+.chatbox-scrollbar{
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+}
+
+.background-lexi {
+  background-image: linear-gradient(
+    90deg,
+    var(--token-e312cf2d-478c-4df0-9124-23464ed48b15, rgb(255, 255, 255)) 0%,
+    var(--token-c9d7fe05-7134-4c81-9c0d-206984b9774e, rgb(112, 190, 250)) 100%
+  );
+}
+
+
+.hover\:bg-lexi-hover {
+  &:hover {
+     background-image: linear-gradient(
+      90deg,
+      var(--token-e312cf2d-478c-4df0-9124-23464ed48b15, rgb(167, 162, 162)) 0%,
+      var(--token-c9d7fe05-7134-4c81-9c0d-206984b9774e, rgb(56, 96, 126)) 100%
+    );
+  }
+}
+
